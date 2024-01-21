@@ -1,4 +1,11 @@
 body {
+  background-size: 1600px;
+  background-image: linear-gradient(
+      to top,
+      #e1dbc099,
+      #e1dbc099
+    ),
+    url(https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
