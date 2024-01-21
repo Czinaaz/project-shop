@@ -10,14 +10,14 @@ import { Link } from 'react-router-dom';
       <div className={css.container}>
         {isLoggedIn ? (
           <div >
-            <h1 className={css.title}>Welcome to Phonebook, {user.name}!</h1>
+            <h1 className={css.title}>Welcome to Task manager, {user.name}!</h1>
             <span role="img" aria-label="Greeting icon">
               💁‍♀️
             </span>
           </div>
         ) : (
           <div className={css.container}>
-            <h1 className={css.title}>Welcome to Phonebook !</h1>
+            <h1 className={css.title}>Welcome to Task manager!</h1>
             <p className={css.logReg}>
               Please{' '}
               <Link to="/login" className={css.link}>
